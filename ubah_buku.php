@@ -20,7 +20,7 @@
         <div class="card" style="margin: 20px;">
             <div class="card-header"><h1>Ubah Buku</h1></div>
             <div class="card-body">
-            <a class="btn btn-secondary" href="http://localhost/praktikum2/tampil_buku.php" role="button">Kembali ke Data Buku</a><hr>
+            <a class="btn btn-secondary" href="tampil_buku.php" role="button">Kembali ke Data Buku</a><hr>
             <form action="proses_ubah_buku.php" method="POST" enctype="multipart/form-data">
                 <input type="hidden" name="id_buku" value="<?= $dt_buku['id_buku'] ?>">
                 <div class="mb-2">
