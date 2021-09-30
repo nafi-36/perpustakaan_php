@@ -28,9 +28,9 @@
                deskripsi = '".$deskripsi."', foto = '".$newname."' WHERE id_buku = '$id_buku'";
         $result = mysqli_query($koneksi, $sql);
         if ($result) {
-            echo "<script>alert('Berhasil menambahkan buku');location.href='tampil_buku.php';</script>";
+            echo "<script>alert('Berhasil mengubah buku');location.href='tampil_buku.php';</script>";
         } else {
-            echo "<script>alert('Gagal menambahkan buku');location.href='tampil_buku.php';</script>";
+            echo "<script>alert('Gagal mengubah buku');location.href='tampil_buku.php';</script>";
         }
     } else {
         echo "<script>alert('File tidak sesuai');location.href='tambah_buku.php';</script>";
