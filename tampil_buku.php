@@ -20,7 +20,7 @@
                 <input type="search" name="cari" class="form-control" placeholder="Masukkan keyword id / nama / pengarang">
             </form>
             <p style="color: red;">*Masukkan keyword dan klik enter<br>*Kosongkan dan klik enter unutk menampilkan semmua data</p>
-            <a class="btn btn-secondary" href="http://localhost/praktikum2/perpus.html" role="button">Kembali ke menu awal</a>
+            <a class="btn btn-secondary" href="perpus.html" role="button">Kembali ke menu awal</a>
             <hr>
             <table class="table">
                 <thead>
