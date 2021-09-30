@@ -20,7 +20,7 @@
         <div class="card" style="margin: 20px;">
         <div class="card-header"><h1>Ubah Siswa</h1></div>
         <div class="card-body">
-        <a class="btn btn-secondary" href="http://localhost/praktikum2/tampil_siswa.php" role="button">Kembali ke Data Siswa</a><hr>
+        <a class="btn btn-secondary" href="tampil_siswa.php" role="button">Kembali ke Data Siswa</a><hr>
         <form action="proses_ubah_siswa.php" method="post">
             <input type="hidden" name="id_siswa" value="<?= $dt_siswa['id_siswa'] ?>">
             <div class="mb-2">
