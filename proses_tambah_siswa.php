@@ -12,7 +12,7 @@
              VALUES ('{$nama_siswa}', '{$tanggal_lahir}', '{$gender}', '{$alamat}', '{$username}', '".md5($password)."', '{$id_kelas}')");
     
     if ($input) {
-        echo "<script>alert('Berhasil');location.href='tambah_siswa.php';</script>";
+        echo "<script>alert('Berhasil');location.href='tampil_siswa.php';</script>";
     }
     else {
         echo "<script>alert('Gagal');location.href='tambah_siswa.php';</script>";
