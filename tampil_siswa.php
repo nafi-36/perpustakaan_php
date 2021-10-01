@@ -20,7 +20,7 @@
                 <input class="form-control me-2" type="search" name="cari" placeholder="Masukkan keyword id / nama siswa" aria-label="Search">
                 <button class="btn btn-outline-secondary" type="submit">Search</button>
             </form>
-            <p style="color: red;">*Masukkan keyword dan klik search<br>*Kosongkan dan klik search unutk menampilkan semmua data</p>
+            <p style="color: red;">*Masukkan keyword dan klik search/enter<br>*Kosongkan dan klik search/enter unutk menampilkan semmua data</p>
             <a class="btn btn-secondary" href="perpus.html" role="button">Kembali ke menu awal</a>
             <a class="btn btn-secondary" href="tambah_siswa.php" role="button">Tambahkan Siswa</a>
             <hr>
