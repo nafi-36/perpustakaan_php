@@ -74,7 +74,7 @@
             </div>
             <div class="mb-2">
                 <label class="form-label">Password : </label>
-                <input type="text" name="password" value="" class="form-control" required>
+                <input type="password" name="password" value="" class="form-control" required>
             </div>
             <input type="submit" name="simpan" value="Ubah Siswa" class="btn btn-secondary">
         </form>
