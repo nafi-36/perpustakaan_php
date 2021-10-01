@@ -13,7 +13,7 @@
         <div class="card" style="margin: 20px;">
             <div class="card-header"><h1>Tambah Siswa</h1></div>
             <div class="card-body">
-                <a class="btn btn-secondary" href="perpus.html" role="button">Kembali ke menu awal</a>
+                <a class="btn btn-secondary" href="tampil_siswa.php" role="button">Kembali ke Data Siswa</a>
                 <hr>
                 <form method="POST" action="proses_tambah_siswa.php">
                     <div class="mb-2">
