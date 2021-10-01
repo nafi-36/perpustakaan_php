@@ -15,11 +15,12 @@
     <div class="card" style="margin: 20px;">
         <div class="card-header"><h1>Data Siswa</h1></div>
         <div class="card-body">
-            <form action="tampil_siswa.php" method="POST" style="padding-bottom: 15px;">
-                <label for="cari" class="form-label">Cari data siswa :</label>
-                <input type="text" name="cari" class="form-control" placeholder="Masukkan keyword id / nama siswa">
+            <p>Cari data siswa :</p>
+            <form action="tampil_siswa.php" method="POST" style="padding-bottom: 15px;" class="d-flex">
+                <input class="form-control me-2" type="search" name="cari" placeholder="Masukkan keyword id / nama siswa" aria-label="Search">
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
             </form>
-            <p style="color: red;">*Masukkan keyword dan klik enter<br>*Kosongkan dan klik enter unutk menampilkan semmua data</p>
+            <p style="color: red;">*Masukkan keyword dan klik search<br>*Kosongkan dan klik search unutk menampilkan semmua data</p>
             <a class="btn btn-secondary" href="perpus.html" role="button">Kembali ke menu awal</a>
             <a class="btn btn-secondary" href="tambah_siswa.php" role="button">Tambahkan Siswa</a>
             <hr>
