@@ -19,6 +19,7 @@
             echo "<script>alert('Berhasil menghapus buku');location.herf='tampil_buku.php';</script>";
         } else {
             echo "<script>alert('Gagal menghapus buku');location.href='tampil_buku.php';</script>";
+            echo mysqli_error($koneksi);
         }
     } else {
         echo "id_buku tidak ada";
