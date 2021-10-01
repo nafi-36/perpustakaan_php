@@ -15,7 +15,7 @@
         <div class="card" style="margin: 20px;">
             <div class="card-header"><h1>Tambah Kelas</h1></div>
             <div class="card-body">
-                <a class="btn btn-secondary" href="perpus.html" role="button">Kembali ke menu awal</a>
+                <a class="btn btn-secondary" href="tampil_kelas.php" role="button">Kembali ke Data Kelas</a>
                 <hr>
                 <form method="POST" action="proses_tambah_kelas.php">
                     <div class="mb-2">
