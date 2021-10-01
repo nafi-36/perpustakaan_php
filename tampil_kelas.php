@@ -21,6 +21,7 @@
             </form>
             <p style="color: red;">*Masukkan keyword dan klik enter<br>*Kosongkan dan klik enter unutk menampilkan semmua data</p>
             <a class="btn btn-secondary" href="perpus.html" role="button">Kembali ke menu awal</a>
+            <a class="btn btn-secondary" href="tambah_kelas.php" role="button">Tambahkan Kelas</a>
             <hr>
             <table class="table">
             <thead>
